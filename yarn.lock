@@ -965,9 +965,6 @@
 "@modules/articles@file:./modules/articles":
   version "1.0.0"
 
-"@modules/articles@file:./modules/articles/":
-  version "1.0.0"
-
 "@modules/chat@file:./modules/chat":
   version "1.0.0"
   dependencies:
@@ -975,6 +972,11 @@
     pubnub-react "^2.1.0"
     react-native-emoji-selector "^0.2.0"
     react-native-keyboard-aware-scroll-view "^0.9.3"
+
+"@modules/privacy-policy@file:./modules/privacy-policy":
+  version "1.0.1"
+  dependencies:
+    react-native-render-html "^5.1.0"
 
 "@modules/social-login@file:./modules/social-login":
   version "1.0.0"
