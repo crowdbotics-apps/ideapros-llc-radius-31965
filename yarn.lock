@@ -962,7 +962,10 @@
 "@modules/articles@file:./modules/articles":
   version "1.0.0"
 
-"@modules/chat@file:./modules/chat/":
+"@modules/articles@file:./modules/articles/":
+  version "1.0.0"
+
+"@modules/chat@file:./modules/chat":
   version "1.0.0"
   dependencies:
     pubnub "^4.29.11"
